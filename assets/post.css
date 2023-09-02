@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: url('https://fotooboimoi.ru/upload/iblock/5e7/5e77d8027f544f6cd0e7bed2794ae745.jpg') no-repeat center center;
+    min-height: 100%;
+    background-size: cover;
+}
+
+.box {
+    width: 20%;
+    min-height: 30rem;
+    padding-top: 5rem;
+    text-align: center;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: repeat(5, 15%);
+    gap: 5%;
+}
+
+.title {
+    font-size: 1.5rem;
+}
+
+#title,
+#body {
+    width: 18.75rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin: 0.7rem 0 0.7rem;
+}
+
+#title:hover,
+#body:hover {
+    border: 2px solid rgba(78, 70, 145, 0.61);
+}
+
+#title:focus,
+#body:focus {
+    outline-color: rgb(21, 15, 116);
+}
+
+.btn {
+    width: 12rem;
+    background-color: rgba(78, 70, 145, 0.61);
+    color: white;
+    border: none;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: rgb(0, 153, 255);
+}
+
+#resultTitle {
+    margin-top: 2rem;
+}
+
+#resultBody {
+    border: 2px solid rgba(90, 85, 143, 0.61);
+    font-size: 1.2rem;
+}

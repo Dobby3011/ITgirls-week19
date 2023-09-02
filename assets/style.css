@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: url('https://fotooboimoi.ru/upload/iblock/5e7/5e77d8027f544f6cd0e7bed2794ae745.jpg') no-repeat center center;
+    min-height: 100%;
+    background-size: cover;
+}
+
+h1,
+p {
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+h1 {
+    color: rgb(132, 0, 255);
+    padding-top: 1rem;
+}
+
+p {
+    color: rgb(0, 47, 255);
+    font-size: 1.5rem;
+}
